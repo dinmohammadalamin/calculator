@@ -75,3 +75,9 @@ icon.onclick = function () {
     icon.src = "img/images.png";
   }
 };
+
+document.addEventListener("keydown", function (event) {
+  if (event.key === "Enter") {
+    screen.value = eval(screen.value);
+  }
+});
