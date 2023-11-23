@@ -1,0 +1,123 @@
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  user-select: none;
+  background-image: linear-gradient(
+    to bottom right,
+    rgba(79, 51, 176, 1),
+    rgba(210, 53, 165)
+  );
+}
+
+.container {
+  margin-left: 1.8em;
+  padding: 20px;
+  border-radius: 35px;
+  box-shadow: 0 0 30px #000;
+  height: 600px;
+  background-color: var(--primary-color);
+}
+.container h1 {
+  color: green;
+  margin-left: 40px;
+  margin-bottom: 0px;
+  width: 250px;
+}
+.content {
+  width: 100%;
+  margin-top: 1.7em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 80px;
+}
+.logo img {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.row {
+  height: 6vh;
+  margin-top: 12px;
+}
+.row button {
+  width: 60px;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  margin: 5px;
+  border-radius: 50px;
+  transition: 0.1s;
+  box-shadow: 3px 3px 5px #55545420, -3px -3px 5px #b1abab;
+}
+
+.row button:hover {
+  box-shadow: inset 5px 5px 8px rgba(16, 16, 16, 0.1), inset -5px -5px 8px #fff;
+  background: #fff;
+}
+
+.display #screen {
+  margin-bottom: 0.5em;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  width: auto;
+  height: 70px;
+  font-size: 35px;
+  outline: none;
+  border: none;
+  text-align: right;
+  padding-right: 0.5em;
+  background: #ecf0f3;
+  border-radius: 6px;
+  box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #ffffff;
+}
+
+#eval {
+  background: #33ccff;
+  color: #fff;
+  box-shadow: inset 5px 5px 8px #66d9ff, inset -5px -5px 8px #00ace6;
+}
+
+#eval:hover {
+  box-shadow: inset 5px 5px 8px #00ace6, inset -5px -5px 8px #00ace6;
+}
+
+#ac {
+  background: #33cc33;
+  color: #fff;
+}
+
+#ac:hover {
+  box-shadow: inset 3px 3px 5px #2eb82e, inset -3px -3px 5px #33cc33;
+}
+
+#ce {
+  background: #33cc33;
+  color: #fff;
+}
+
+#ce:hover {
+  box-shadow: inset 3px 3px 5px #2eb82e, inset -3px -3px 5px #33cc33;
+}
+#icon {
+  width: 50px;
+  cursor: pointer;
+}
+:root {
+  --primary-color: #d5d7db;
+  --secondary-color: #212121;
+}
+.dark-theme {
+  --primary-color: #1f2023;
+  --secondary-color: #fff;
+}
